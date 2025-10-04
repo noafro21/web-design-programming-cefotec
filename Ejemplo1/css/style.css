@@ -1,0 +1,40 @@
+/* itio.css */
+
+/* Selector de Elemento */
+p {
+    color: gray;
+    font-size:25px;
+    text-align: justify;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1{
+    color:#34629D;
+}
+
+th{
+    font-weight: bold;
+    font-size:large;
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+a {
+    background-color: lightgreen;
+}
+
+.parrafoespecial {
+    background-color: darkgoldenrod;
+    font-style:italic;
+    color:black;
+}
+
+.textoresaltado {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
