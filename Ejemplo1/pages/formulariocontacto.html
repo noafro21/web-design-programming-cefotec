@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulariocontacto.css">
+</head>
+
+<body>
+
+    <ul title="Lista de elementos">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./quienessomos.html">Quienes Somos</a></li>
+        <li><a href="./ejemplohtmlsemantico.html">Ejemplo HTML Semántico</a></li>
+        <li><a href="./formulariocontacto.html">Formulario de contacto</a></li>
+    </ul>
+
+    <h1>Formulario de contacto</h1>
+    <form action="" method="post">
+
+        <table>
+            <tr>
+                <td>
+                    <label for="correo">Nombre:</label>
+                </td>
+                <td>
+                    <input type="text" id="nombre" name="personal_name" value="" placeholder="Favor ingresar su nombre" minlength="3" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="correo">Correo Electronico:</label>
+                </td>
+                <td>
+                    <input type="email" id="nombre" name="personal_name" value="" placeholder="Favor ingresar su correo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="correo">Comentarios:</label>
+                </td>
+                <td>
+                    <textarea name="personal_comment" id="comentarios" cols="30" rows="10" placeholder="Por favor ingrese su coemntario"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telefono">Telefono:</label>
+                </td>
+                <td>
+                    <input type="tel" id="telefono" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" name="personal_phon" required value="" placeholder="Favor ingresar su telefono 506-7185-9897">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Cantidad">Cantidad:</label>
+                </td>
+                <td>
+                    <input type="number" id="cantidad" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" name="personal_cantidad" required value="" placeholder="Por favor ingrese la Cantidad" min="10" max="20">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Enviar</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Enviar">
+                </td>
+                
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+
+</html>
